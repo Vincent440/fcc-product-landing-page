@@ -1,13 +1,5 @@
-body,main,footer {
+body {
     background-image: linear-gradient(90deg , rgb(158, 83, 83) , rgb(87, 19, 19), rgb(158, 83, 83) );
     background-repeat: no-repeat;
     background-size: auto;
-}
-main > div.container {
-    border-radius: .75rem;
-}
-
-footer > div.container {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
 }
