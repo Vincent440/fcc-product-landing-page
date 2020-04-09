@@ -1,5 +1,28 @@
-body {
-    background-image: linear-gradient(90deg , #eeeded , rgb(216, 216, 216), #eeeded  );
+main {
+    background-image: linear-gradient(140deg , #e0f3ffc9 , rgb(157, 240, 240), rgb(255, 189, 136)  );
     background-repeat: no-repeat;
     background-size: auto;
+}
+.logos {
+    width: 3em;
+    height: 4em;
+}
+.bi-star {
+    width: 1.25em;
+    height: 1.25em;
+}
+.card {
+    display: flex;
+}
+
+@media (min-width: 992px) {
+
+    .logos {
+        width: 4em;
+        height: 5em;
+    }
+    .bi-star {
+        width: 1.5em; 
+        height: 1.5em;
+    }
 }

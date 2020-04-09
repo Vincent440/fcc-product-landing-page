@@ -1,344 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Ditto Designs</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Ditto Designs</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./style.css">
-  <!-- freeCodeCamp test suite -->
-  <script async src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-dark fixed-top bg-dark border-bottom rounded-bottom" id="nav-bar">
+        <div class="container-sm d-flex">
+          <img id="header-img" src="https://via.placeholder.com/250x35?text=Vincentshury.com" alt="Company logo" />
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#information">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary btn-sm" href="#form">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header id="header">
-    <nav class="navbar navbar-dark fixed-top bg-dark border-bottom rounded-bottom" id="nav-bar">
-      <div class="container-sm">
-        <img id="header-img" class="navbar-brand" src="https://via.placeholder.com/250x35?text=Vincentshury.com" alt="Company logo">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#header">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#information">Details</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#video">Video</a>
-          </li>
-        </ul>
+    <main role="main" class="py-5 mt-5">
+      <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div class="container">
+          <h1 class="display-3">Ditto Designs</h1>
+          <p class="lead">Custom Websites</p>
+          <p class="font-italic text-right">For Presentation only</p>
+        </div>
       </div>
-    </nav>
-  </header>
 
-  <main role="main" class="py-5 mt-5">
+      <div class="container-sm my-5 py-3 mt-sm-3 rounded-lg bg-dark">
+        <div class="row p-3 justify-content-center" id="information">
+          <div class="col-12">
+            <div class="card text-center">
+              <div class="card-body">
+                <div class="card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center pt-2 pt-md-0">
+                      <svg class="bi bi-shield-lock-fill logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.187 1.025C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 012.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 01-2.418 2.3 6.942 6.942 0 01-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 01-1.007-.586 11.192 11.192 0 01-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 012.415 1.84a61.11 61.11 0 012.772-.815zm3.328 6.884a1.5 1.5 0 10-1.06-.011.5.5 0 00-.044.136l-.333 2a.5.5 0 00.493.582h.835a.5.5 0 00.493-.585l-.347-2a.5.5 0 00-.037-.122z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
 
-    <div class="container-sm mt-5 py-3 mt-sm-3 rounded-lg bg-dark">
-
-      <div class="row p-3 justify-content-center">
-        <div class="col-lg-9">
-          <div class="card text-center">
-            <div class="card-body">
-              <div class="card">
-               
-                <h1 class="card-title display-4">Ditto Designs</h1>
-                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-                  <div class="card-body">
-                    <div class="input-group mb-1">
-                      <div class="input-group-prepend">
-                        <label for="email" class="input-group-text">Email</label>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h3 class="card-title">Secure</h3>
+                        <p class="card-text">
+                          ERC721 token standard required a robust technical analysis behind few faucet when Ethereum waited many vaporware in lots of blockchain, so Maker data mining the over the counter behind few
+                          all-time-high. Blockchain looked at lots of taint, for Golem forgot lots of hard fork! Gwei generated some hot volume in some FUD since NEO rejoins few atomic swap at a 51% attack.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-muted">Text generated using <a href="https://placehodler.shapelabs.co/">placehodler.com</a></small>
+                        </p>
                       </div>
-                      <input required id="email" class="form-control" placeholder="Enter email address" type="email"
-                        name="email" aria-label="email" aria-describedby="email">
-                    </div>
-                  </div>
-
-                  <div class="card-footer px-5">
-                    <input id="submit" type="submit" class="btn btn-primary btn-block" value="Get Started">
-                  </div>
-                </form>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
-      <div id="information" class="row p-3 justify-content-center">
-
-        <div class="col-12">
-          <div class="card text-center">
-
-            <div class="card-body">
-
-              <div class="card">
-                <div class="row no-gutters">
-
-                  <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <svg class="bi bi-shield-lock-fill" width="5em" height="7.5em" viewBox="0 0 16 16" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M5.187 1.025C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 012.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 01-2.418 2.3 6.942 6.942 0 01-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 01-1.007-.586 11.192 11.192 0 01-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 012.415 1.84a61.11 61.11 0 012.772-.815zm3.328 6.884a1.5 1.5 0 10-1.06-.011.5.5 0 00-.044.136l-.333 2a.5.5 0 00.493.582h.835a.5.5 0 00.493-.585l-.347-2a.5.5 0 00-.037-.122z"
-                      clip-rule="evenodd" />
-                    </svg>
-                  </div>
-
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <h3 class="card-title">Secure</h3>
-                      <p class="card-text">ERC721 token standard required a robust technical analysis behind few faucet when Ethereum waited many vaporware in lots of blockchain, so Maker data mining the over the counter behind few all-time-high. Blockchain looked at lots of taint, for Golem forgot lots of hard fork! Gwei generated some hot volume in some FUD since NEO rejoins few atomic swap at a 51% attack, or NEO identified a automated bagholder for lots of testnet!</p>
-                      <p class="card-text"><small class="text-muted">Text generated using <a href="https://placehodler.shapelabs.co/">placehodler.com</a></small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card my-3">
-
-                <div class="row no-gutters">
-
-                  <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <svg class="bi bi-phone" width="5em" height="7.5em" viewBox="0 0 16 16" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
-                        d="M11 1H5a1 1 0 00-1 1v12a1 1 0 001 1h6a1 1 0 001-1V2a1 1 0 00-1-1zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z"
-                        clip-rule="evenodd" />
-                      <path fill-rule="evenodd" d="M8 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-                    </svg>
-                  </div>
-
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <h3 class="card-title">Responsive</h3>
-                      <p class="card-text">Collaboratively administrate empowered markets via plug-and-play networks.
-                        Dynamically procrastinate B2C users after installed base benefits.
-                        Dramatically visualize customer directed convergence without revolutionary ROI.
-                      </p>
-                      <p class="card-text">
-                        <small class="text-muted">Text generated using <a href="https://www.cipsum.com/">cipsum.com</a></small>
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="card">
-                <div class="row no-gutters">
-
-                  <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <svg class="bi bi-search" width="5em" height="7.5em" viewBox="0 0 16 16" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
-                        d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
-                        clip-rule="evenodd" />
-                      <path fill-rule="evenodd"
-                        d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
-                        clip-rule="evenodd" />
-                    </svg>
-                  </div>
-
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <h3 class="card-title">Accessible</h3>
-                      <p class="card-text">Credibly reintermediate backend ideas for cross-platform models.
-                        Continually reintermediate integrated processes through technically sound intellectual capital.
-                        Holistically foster superior methodologies without market-driven best practices
-                      </p>
-                      <p class="card-text"><small class="text-muted">Text generated using <a href="https://www.cipsum.com//">cipsum.com</a></small></p>
                     </div>
                   </div>
                 </div>
 
+                <div class="card my-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center pt-2 pt-md-0">
+                      <svg class="bi bi-phone logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11 1H5a1 1 0 00-1 1v12a1 1 0 001 1h6a1 1 0 001-1V2a1 1 0 00-1-1zM5 0a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2H5z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M8 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h3 class="card-title">Responsive</h3>
+                        <p class="card-text">
+                          Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence
+                          without revolutionary ROI.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-muted">Text generated using <a href="https://www.cipsum.com/">cipsum.com</a></small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center pt-2 pt-md-0">
+                      <svg class="bi bi-search logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h3 class="card-title">Accessible</h3>
+                        <p class="card-text">
+                          Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior
+                          methodologies without market-driven best practices.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-muted">Text generated using <a href="https://www.cipsum.com//">cipsum.com</a></small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
             </div>
-
           </div>
         </div>
 
+        <div class="row p-3">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="rounded-lg embed-responsive embed-responsive-16by9">
+                  <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row p-3 row-cols-1 row-cols-lg-3 text-center no-gutters justify-content-center">
+          <div class="col card-deck">
+            <div class="card mx-1">
+              <div class="card-header">
+                <svg class="bi bi-award logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"
+                    clip-rule="evenodd"
+                  />
+                  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                </svg>
+
+                <h2 class="card-title font-weight-bolder">Silver</h2>
+
+                <div class="py-2">
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush rounded-lg">
+                  <li class="list-group-item rounded-lg">Single Page</li>
+                  <li class="list-group-item rounded-lg">Chat Support</li>
+                  <li class="list-group-item rounded-lg">Select From Existing Themes</li>
+                  <li class="list-group-item rounded-lg">Hourly Pricing On New Features</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <button class="btn btn-info" disabled="disabled">Learn more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mx-auto my-4 my-lg-0 card-deck">
+            <div class="card mx-1">
+              <div class="card-header">
+                <svg class="bi bi-trophy logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 011-1h8a1 1 0 011 1H3zm2-1a1 1 0 011-1h4a1 1 0 011 1H5z" />
+                  <path fill-rule="evenodd" d="M12.5 3a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0zm-6-2a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd" />
+                  <path d="M7 10h2v4H7v-4z" />
+                  <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z" />
+                </svg>
+
+                <h2 class="card-title font-weight-bolder">Gold</h2>
+
+                <div class="py-2">
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush rounded-lg">
+                  <li class="list-group-item rounded-lg">Limited SPA/or 5 Pages</li>
+                  <li class="list-group-item rounded-lg">Limited Live Support</li>
+                  <li class="list-group-item rounded-lg">Limited Custom Themes</li>
+                  <li class="list-group-item rounded-lg">Discounts On New Features</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-info" disabled="disabled">Learn more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col card-deck">
+            <div class="card mx-1">
+              <div class="card-header">
+                <svg class="bi bi-gem logos" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.1.7a.5.5 0 01.4-.2h9a.5.5 0 01.4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 01-.8 0L.1 5.3a.5.5 0 010-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495l5.062-.005L8 13.366 5.47 5.495zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l2.92-.003 2.193 6.82L1.5 5.5zm7.889 6.817l2.194-6.828 2.929-.003-5.123 6.831z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                <h2 class="card-title font-weight-bolder">Diamond</h2>
+
+                <div class="py-2">
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <ul class="list-group list-group-flush rounded-lg">
+                  <li class="list-group-item rounded-lg">Premium SPA/Unlimited Pages</li>
+                  <li class="list-group-item rounded-lg">Priority Live Support</li>
+                  <li class="list-group-item rounded-lg">Premium Custom Themes</li>
+                  <li class="list-group-item rounded-lg">Premium Discount On New Features</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <button class="btn btn-info" disabled="disabled">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row p-3 justify-content-center">
+          <div class="col-lg-9">
+            <div class="card text-center">
+              <div class="card-body">
+                <div class="card">
+                  <h2 class="card-title">Sign up</h2>
+                  <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <p class="card-text">Submit Email for more information and custom orders</p>
+                    <div class="card-body">
+                      <div class="input-group mb-1">
+                        <div class="input-group-prepend">
+                          <label for="email" class="input-group-text">Email</label>
+                        </div>
+                        <input required id="email" class="form-control" placeholder="Enter email address" type="email" name="email" aria-label="email" aria-describedby="email" />
+                      </div>
+                    </div>
+
+                    <div class="card-footer px-5">
+                      <input id="submit" type="submit" class="btn btn-primary btn-block" value="Sign Up" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </main>
 
-      <div class="row p-3">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              <div class="rounded-lg embed-responsive embed-responsive-16by9">
-                <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
+    <footer class="footer py-3 rounded-top bg-dark">
+      <div class="container-sm text-center">
+        <span class="text-white font-weight-bolder">
+          Demo
+        </span>
+        <span class="text-muted">
+          Created by&nbsp; <a href="https://www.vincentshury.com/">Vincent Shury</a>&nbsp;2020&nbsp;
+          <a href="https://github.com/Vincent440/fcc-product-landing-page">GitHub repository</a>
+        </span>
       </div>
+    </footer>
 
-      <div class="row p-3 row-cols-1 row-cols-lg-3 text-center no-gutters justify-content-center">
-
-        <div class="col card-deck">
-          <div class="card mx-1">
-
-            <div class="card-header">
-
-              <svg class="bi bi-award" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"
-                  clip-rule="evenodd" />
-                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-              </svg>
-
-              <h2 class="card-title font-weight-bolder">Silver</h2>
-
-              <div class="py-2">
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-              </div>
-
-            </div>
-
-            <div class="card-body">
-              <h3 class="card-title">$100</h3>
-              <ul class="list-group list-group-flush rounded-lg">
-                <li class="list-group-item rounded-lg">Single Page</li>
-                <li class="list-group-item rounded-lg">Chat Support</li>
-                <li class="list-group-item rounded-lg">Select From Existing Themes</li>
-                <li class="list-group-item rounded-lg">Hourly Pricing on Future upgrades</li>
-              </ul>
-            </div>
-
-            <div class="card-footer">
-              <button class="btn btn-info" disabled="disabled">Learn more</button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col mx-auto my-4 my-lg-0 card-deck">
-          <div class="card mx-1">
-            <div class="card-header">
-
-              <svg class="bi bi-trophy" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 011-1h8a1 1 0 011 1H3zm2-1a1 1 0 011-1h4a1 1 0 011 1H5z" />
-                <path fill-rule="evenodd"
-                  d="M12.5 3a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0zm-6-2a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0z"
-                  clip-rule="evenodd" />
-                <path d="M7 10h2v4H7v-4z" />
-                <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z" />
-              </svg>
-
-              <h2 class="card-title font-weight-bolder">Gold</h2>
-
-              <div class="py-2">
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-              </div>
-
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">$100 - $500</h3>
-              <ul class="list-group list-group-flush rounded-lg">
-                <li class="list-group-item rounded-lg">Limited SPA or up to 5 Pages</li>
-                <li class="list-group-item rounded-lg">Limited Live Support</li>
-                <li class="list-group-item rounded-lg">Limited Custom Themes</li>
-                <li class="list-group-item rounded-lg">Discount on future upgrades</li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-info" disabled="disabled">Learn more</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-deck">
-          <div class="card mx-1">
-            <div class="card-header">
-              <svg class="bi bi-gem" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M3.1.7a.5.5 0 01.4-.2h9a.5.5 0 01.4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 01-.8 0L.1 5.3a.5.5 0 010-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495l5.062-.005L8 13.366 5.47 5.495zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l2.92-.003 2.193 6.82L1.5 5.5zm7.889 6.817l2.194-6.828 2.929-.003-5.123 6.831z"
-                  clip-rule="evenodd" />
-              </svg>
-
-              <h2 class="card-title font-weight-bolder">Diamond</h2>
-
-              <div class="py-2">
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-                <svg class="bi bi-star" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 00-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L1.71 6.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658a.525.525 0 00.393.288l4.052.575-2.906 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z"
-                    clip-rule="evenodd" />
-                </svg>
-              </div>
-
-            </div>
-
-            <div class="card-body">
-              <h3 class="card-title">$500 or more.</h3>
-              <ul class="list-group list-group-flush rounded-lg">
-                <li class="list-group-item rounded-lg">Premium SPA or Large number of pages</li>
-                <li class="list-group-item rounded-lg">Top Priority Live Support</li>
-                <li class="list-group-item rounded-lg">Premium Custom Themes</li>
-                <li class="list-group-item rounded-lg">Premium Discount on future upgrades</li>
-              </ul>
-            </div>
-
-            <div class="card-footer">
-              <button class="btn btn-info" disabled="disabled">Learn more</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </main>
-
-  <footer class="footer py-3 rounded-top bg-dark">
-    <div class="container-sm text-center">
-      <span class="text-white font-weight-bolder">
-       DEMO
-      </span>
-      <span class="text-muted"> Created by&nbsp;
-        <a href="https://www.vincentshury.com/">Vincent Shury</a>&nbsp;2020&nbsp;
-        <a href="https://github.com/Vincent440/fcc-product-landing-page">GitHub repository</a>
-      </span>
-    </div>
-  </footer>
-
-</body>
+    <!-- freeCodeCamp test suite
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
 </html>
